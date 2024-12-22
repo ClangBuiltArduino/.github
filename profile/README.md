@@ -9,7 +9,8 @@ ClangBuiltArduino is an independent initiative aimed at enhancing LLVM/Clang sup
 The Arduino ecosystem has long relied on GCC as its default toolchain. While GCC is robust and widely adopted, LLVM/Clang offers several benefits, including:
 - Unified Toolchain: With LLVM/Clang, you can use a single toolchain for multiple architectures, avoiding the need for maintaining multiple prefixed toolchains for each target.
 - Advanced Diagnostics: Clang provides detailed error messages and warnings, making it easier to debug and optimize code.
-- Tooling Ecosystem: Leverage powerful tools like Clang-Tidy, Clang-Format, and LibTooling for static analysis, code formatting, and custom tooling.
+- Tooling Ecosystem: Leverage powerful tools like clang-tidy, clang-format for static analysis, code formatting, etc.
+
 Our goal is to:
 1. Identify and fix issues that prevent Arduino programs from building with LLVM/Clang.
 2. Contribute patches upstream to relevant repositories.
